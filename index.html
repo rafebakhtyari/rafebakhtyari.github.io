@@ -4,13 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafe Website</title>
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #E9E9E9;
+}
+
+#Profile {
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 150px; height: 150px;
+  border-radius: 150px;
+}
+
+#Profile:before {
+  content: '';
+  position: absolute;
+  top: -8px; left: -8px;
+  width: 162px; height: 162px;
+  border-radius: 162px;
+  border: 2px solid #BCBCBC;
+}
+
+#Profile:after {
+  content: '';
+  position: absolute;
+  top: -13px; left: -13px;
+  width: 172px; height: 172px;
+  border-radius: 172px;
+  border: 2px solid #FF9900;
+}
+
+#Profile img {
+  border-radius: 150px;
+  width: 150px;
+}
+
+#Profile h2 {
+
+  width: 150px;
+  text-align: center;
+  font-family: 'Oswald';
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+p {
+
+margin-top: 0px;
+  text-align: center;
+  font-family: 'Abel';
+  background: #7ECEFD;
+  padding: 6px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+</style>
 </head>
 <body>
 
-    <!-- a welcome -->
-    <h1>Welcome to my website</h1>
-    <p>My name is Rafe and I am a web developer</p>
-    <p>new</p>
-    
+
+<div id="Profile">
+  <img src="https://avatars.githubusercontent.com/u/49270951?v=4"/>
+  <h2>Rafe Bakhtyari</h2>
+  <p>Mobile app and Web Developer</p>
+</div>
+
 </body>
 </html>
